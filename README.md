@@ -1,1 +1,1 @@
-# PolaFigur1
+Wiktor Gapiński Kl.3TF
