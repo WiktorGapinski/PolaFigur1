@@ -1,0 +1,37 @@
+﻿<Window x:Class="PolaFigurWiktorGapiński.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PolaFigurWiktorGapiński"
+        mc:Ignorable="d"
+        Title="Kalkulator Pol i Obwodów" Height="400" Width="600">
+
+    <Canvas>
+
+        <Border Background="#FFA59C9C" Height="40" HorizontalAlignment="Center" VerticalAlignment="Top" Width="600">
+            <TextBlock Text="Kwadrat" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Foreground="Black"/>
+        </Border>
+
+        <!-- Wizualizacja kwadratu -->
+        <Rectangle Width="100" Height="100" Fill="Orange" Canvas.Left="33" Canvas.Top="46" Name="squareRectangle" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+        <!-- Tekst "Bok kwadratu" -->
+        <TextBlock Text="Bok kwadratu:" Canvas.Left="162" Canvas.Top="62" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="sideSquareTextBox" Width="52" Canvas.Left="300" Canvas.Top="64" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+        <!-- Tekst "Pole kwadratu" -->
+        <TextBlock Text="Pole kwadratu:" Canvas.Left="160" Canvas.Top="95" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="squareAreaTextBox" IsReadOnly="True" Width="52" Canvas.Left="300" Canvas.Top="95" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+        <!-- Tekst "Obwód kwadratu" -->
+        <TextBlock Text="Obwód kwadratu:" Canvas.Left="160" Canvas.Top="124" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="squarePerimeterTextBox" IsReadOnly="True" Width="52" Canvas.Left="300" Canvas.Top="126" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+        <!-- Przycisk "Oblicz Pole" -->
+        <Button Content="Oblicz Pole" Width="100" Canvas.Left="380" Canvas.Top="46" Click="CalculateSquareArea" Height="100" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+        <!-- Przycisk "Oblicz Obwód" -->
+        <Button Content="Oblicz Obwód" Width="100" Canvas.Left="490" Canvas.Top="45" Click="CalculateSquarePerimeter" Height="100" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+    </Canvas>
+</Window>
