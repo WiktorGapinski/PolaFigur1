@@ -6,7 +6,6 @@ C:\Users\wikto\source\repos\PolaFigurWiktorGapiński\PolaFigurWiktorGapiński\bi
 C:\Users\wikto\source\repos\PolaFigurWiktorGapiński\PolaFigurWiktorGapiński\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\wikto\source\repos\PolaFigurWiktorGapiński\PolaFigurWiktorGapiński\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\wikto\source\repos\PolaFigurWiktorGapiński\PolaFigurWiktorGapiński\obj\Debug\net8.0-windows\PolaFigurWiktorGapiński_MarkupCompile.cache
-C:\Users\wikto\source\repos\PolaFigurWiktorGapiński\PolaFigurWiktorGapiński\obj\Debug\net8.0-windows\PolaFigurWiktorGapiński_MarkupCompile.lref
 C:\Users\wikto\source\repos\PolaFigurWiktorGapiński\PolaFigurWiktorGapiński\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\wikto\source\repos\PolaFigurWiktorGapiński\PolaFigurWiktorGapiński\obj\Debug\net8.0-windows\PolaFigurWiktorGapiński.g.resources
 C:\Users\wikto\source\repos\PolaFigurWiktorGapiński\PolaFigurWiktorGapiński\obj\Debug\net8.0-windows\PolaFigurWiktorGapiński.GeneratedMSBuildEditorConfig.editorconfig
